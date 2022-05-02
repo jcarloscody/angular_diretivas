@@ -7,4 +7,4 @@
 
 
 ### As diretivas
-> - [`NgStyle`]()  `--[ngStyle]="{propriedade: variavel}"` Você conseguirá definir em tempo de execução o estilo de um objeto do DOM. 
+> - [`NgStyle`]()  `**[ngStyle]="{propriedade: variavel}"**` Você conseguirá definir em tempo de execução o estilo de um objeto do DOM. 
