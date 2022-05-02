@@ -8,4 +8,4 @@
 
 ### As diretivas
 > - [`NgStyle`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-style)  **`[ngStyle]="{propriedade: variavel}"`** Você conseguirá definir em tempo de execução o estilo de um objeto do DOM. 
-> - [`NgStyle`]()  **`[ngStyle]="{propriedade: variavel}"`** Você conseguirá definir em tempo de execução o estilo de um objeto do DOM. 
+> - [`NgStyle`]()  **`[ngClass]="variavel"`** Você conseguirá definir/modificar classes para um objeto do DOM. 
