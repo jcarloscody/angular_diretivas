@@ -1,17 +1,17 @@
-<!--
-<p *ngFor="let name of names"> {{ name }} </p>
 
-<p *ngFor="let name of names; let i=index"> {{ i }}: {{ name }} </p>
--->
+<p *ngFor="let name of namesC"> {{ name }} </p>
+
+<h1>{{nomes}}</h1>
+
 
 <mat-card>
     <mat-card-content>
       <mat-selection-list #selectednames>
-        <mat-list-option *ngFor="let name of names">{{ name }}</mat-list-option>
+        <mat-list-option *ngFor="let name of namesC">{{ name }}</mat-list-option>
       </mat-selection-list>
     </mat-card-content>
     <mat-card-footer>
-        <p>
+       <p>
           Options selected: {{selectednames.selectedOptions.selected.length}}
         </p>    
     </mat-card-footer>
@@ -22,7 +22,7 @@
     <mat-card-content>
       <mat-list>
         <h3 matSubHeader>Names</h3>
-        <mat-list-item *ngFor="let name of names">
+        <mat-list-item *ngFor="let name of namesC">
           <mat-icon matListIcon>person</mat-icon>
           <h4 matLine>{{name}}</h4>
         </mat-list-item>
@@ -40,5 +40,4 @@
   </mat-card>
   
   
-  
-  
+

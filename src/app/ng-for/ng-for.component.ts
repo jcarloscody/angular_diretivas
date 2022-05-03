@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-for.component.css']
 })
 export class NgForComponent implements OnInit {
-
-  names = [
+  nomes: String = "çlmç";
+  namesC = [
     "Ana",
     "John",
     "Mark",
