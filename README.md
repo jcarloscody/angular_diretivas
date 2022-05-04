@@ -5,6 +5,16 @@
  - `De atributos:` promovem mudanças em objetos já existentes
  - `Estruturais:` acrescentam ou removem objetos do DOM 
 
+Instalação
+> [Download Node](https://nodejs.org/en/download/)
+
+Comandos para Execução do Projeto
+> `Instalação angular`: npm install -g @angular/cli
+
+> `Baixar as dependências`: npm i
+
+> `Executar`: ng serve
+
 
 ### As diretivas
 > - [`NgStyle`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-style)  **`[ngStyle]="{propriedade: variavel}"`** Você conseguirá definir em tempo de execução o estilo de um objeto do DOM. 
