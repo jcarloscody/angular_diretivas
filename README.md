@@ -14,3 +14,4 @@
 >   - **`*ngFor="let item of items; let i=index"`**
 > - [`NgSwitch`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-switch )  **`*[ngSwitch]="variavel"  |   *ngSwitchCase="'value'"`** Possui a mesma ideia do switch/case.
 >  - observe que é "''" isto porque se deixarmos apenas assim "" ele procurará uma variável.
+> - [`NgTemplate`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-template)  **`<ng-template #variave_de_referencia> </ng-template>`** Uma diretiva para renderizar página html, mas usando um component você consegue condicionar por exemplo a renderização.
