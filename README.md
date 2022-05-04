@@ -16,3 +16,4 @@
 >  - observe que é "''" isto porque se deixarmos apenas assim "" ele procurará uma variável.
 > - [`NgTemplate`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-template)  **`<ng-template #variave_de_referencia> </ng-template>`** Uma diretiva para renderizar página html, mas usando um component você consegue condicionar por exemplo a renderização.
 > - [`NgContainer`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-container)  **`<ng-container> </ng-container>`** O container chegou numa hora para ajudar na implementação de um algoritmo que precisa usar concomitantemente o loop + condição, o ngFor + ngIf, para isso usamos o .
+> - [`NgContent`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-content)  **`<ng-content>`** A finalidade deste componente é possibilitar inserir conteúdos dentro ou entre as tags (abertura/fechamento) do selector.
