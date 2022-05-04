@@ -10,27 +10,35 @@ import {MatListModule} from '@angular/material/list';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
     NgClassComponent,
     NgIfComponent, 
-    SubNgIfComponent, NgForComponent
+    SubNgIfComponent, NgForComponent, NgSwitchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule,MatRadioModule,MatCardModule,MatSelectModule,
-    MatListModule
+    FormsModule,
+    MatRadioModule,
+    MatCardModule,
+    MatSelectModule,
+    MatListModule,
+    MatCheckboxModule,
+    MatProgressBarModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

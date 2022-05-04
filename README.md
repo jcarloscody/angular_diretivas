@@ -12,4 +12,5 @@
 > - [`NgIf`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-if)  **`*ngIf="variavelBoleana ou expressão lógica"`** Com determinada expressão lógica conseguimos habilitar ou não determinado componente do html. 
 > - [`NgFor`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-for)  **`*ngFor="let item of items"`** Criamos vários elementos a partir de um loop.
 >   - **`*ngFor="let item of items; let i=index"`**
-> - [`NgSwi`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng- )  **`*ngFor="let item of items"`** Uma comparação entre casos
+> - [`NgSwitch`](https://github.com/jcarloscody/angular_diretivas/tree/master/src/app/ng-switch )  **`*[ngSwitch]="variavel"  |   *ngSwitchCase="'value'"`** Possui a mesma ideia do switch/case.
+>  - observe que é "''" isto porque se deixarmos apenas assim "" ele procurará uma variável.
