@@ -20,13 +20,14 @@ import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
     NgClassComponent,
     NgIfComponent, 
-    SubNgIfComponent, NgForComponent, NgSwitchComponent, NgTemplateComponent
+    SubNgIfComponent, NgForComponent, NgSwitchComponent, NgTemplateComponent, NgContainerComponent
   ],
   imports: [
     BrowserModule,
